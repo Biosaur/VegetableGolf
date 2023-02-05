@@ -12,8 +12,6 @@ AGolfVegetable::AGolfVegetable()
 	PrimaryActorTick.bCanEverTick = true;
     StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
     SetRootComponent(StaticMesh);
-    SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
-    Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 }
 
 // Called when the game starts or when spawned

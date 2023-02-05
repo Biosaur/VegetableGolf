@@ -5,8 +5,6 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "Components/StaticMeshComponent.h"
-#include "GameFramework/SpringArmComponent.h"
-#include "Camera/CameraComponent.h"
 #include "GolfVegetable.generated.h"
 
 UCLASS()
@@ -31,7 +29,5 @@ public:
 
     UPROPERTY(VisibleAnywhere)
     class UStaticMeshComponent* StaticMesh;
-    class USpringArmComponent* SpringArm;
-    class UCameraComponent* Camera;
 
 };
